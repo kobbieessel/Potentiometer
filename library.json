@@ -1,11 +1,11 @@
 {
   "name": "Potentiometer",
-  "keywords": "pot, potentiometer, pot_conveter",
+  "keywords": "pot, potentiometer, pot_converter",
   "description": "A library for potentiometer",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/kobbieessel/Potentiometer-library.git"
+    "url": "https://github.com/kobbieessel/Potentiometer.git"
   },
   "frameworks": "arduino",
   "platforms":
