@@ -12,9 +12,9 @@ Description:
 
 #include <Potentiometer.h>
 
-const int potPin = A0;
+const int POTPIN = A0;
 
-Potentiometer pot(potPin);
+Potentiometer pot(POTPIN);
 
 void setup() {
   Serial.begin(115200);
