@@ -18,11 +18,11 @@ Potentiometer pot(POTPIN);
 
 void setup() {
   Serial.begin(115200);
-  pot.init();
+  pot.init(); // initializes the pot pin
 }
 
 void loop() {
-  int reading = pot.convertReading(255);
+  int reading = pot.convertReading(255); // converts the pot reading from 0-1023 to 0-255
   Serial.println(reading);
   delay(500);
 }
